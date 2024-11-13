@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vim Basics</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.6;
+        } 
+        .command {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vim Basics</h1>
+    <p>In this lesson, we will cover the basic commands and usage of <code>vim</code>. Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.</p> 
+    
+    <h2>Getting Started with Vim</h2>
+    </ol>
+         <li>Open a terminal.</li>
+         <li>Type <kbd>vim</kbd> followed by the filename to open or create a file, e.g., <pre><code>vim myfile.txt</code></pre>.</li>
+    </ol>
+    <h2>Basic Commands</h2>
+    <ul>
+        <li><kbd>i</kbd>: Enter insert mode (start editing the file).</li>
+        <li><kbd>Esc</kbd>: Exit insert mode (return to command mode).</li>
+        <li><kbd>:w</kbd>: Save the file.</li>
+        <li><kbd>:q</kbd>: Quit vim.</li>
+        <li><kbd>:wq</kbd>: Save and quit vim.</li>
+        <li><kbd>:q!</kbd>: Quit without saving.</li>
+    </ul>
+
+    <h2>Editing Text</h2>
+    <p>To make text changes, first ensure you are in command mode (press <kbd>Esc</kbd>), then use the following commands:</p>
+    <div class="command">
+        <pre><code>
+        dd - Delete the current line
+        yy - Copy (yank) the current line
+        p - Paste the copied line
+        u - Undo the last action
+        </code></pre>
+    </div>
+
+    <h2>Useful Tips</h2>
+    <ul>
+       <li>Use <kbd>Ctrl</kbd> + <kbd>r</kbd> to redo the last undone action.</li>
+       <li>Use <kbd>v</kbd> to enter visual mode, allowing you to select text.</li>
+       <li>Use <kbd>:</kbd> to enter command-line mode and run advanced commands.</li>
+   </ul>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
