@@ -1,0 +1,13 @@
+body{
+    background-color:lemonchiffon;
+}
+header{
+    background-color:powderblue;
+      }
+td, th, table{
+    border:2px solid;
+    border-collapse:collapse;
+}
+nav {
+    background-color:black;
+}
