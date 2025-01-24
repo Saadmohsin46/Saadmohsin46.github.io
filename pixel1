@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art</title>
+    <style>
+        .pixel-grid {
+            display: grid;
+            grid-template-columns: repeat(16, 20px);
+            grid-template-rows: repeat(16, 20px);
+            gap: 1px;
+        }
+
+        .pixel-grid div {
+            width: 20px;
+            height: 20px;
+            background-color: #ddd; /* Default color */
+        }
+
+        /* Customize the colors of specific squares */
+        .pixel-grid div:nth-child(1) {
+            background-color: #ff0000; /* Red */
+        }
+
+        .pixel-grid div:nth-child(2) {
+            background-color: #00ff00; /* Green */
+        }
+
+        .pixel-grid div:nth-child(3) {
+            background-color: #0000ff; /* Blue */
+        }
+
+        /* Example of creating a pattern */
+        .pixel-grid div:nth-child(5n) {
+            background-color: #ffff00; /* Yellow */
+        }
+    </style>
+</head>
+<body>
+    <div class="pixel-grid">
+        <!-- 256 divs for a 16x16 grid -->
+        <!-- Add or remove divs as needed to create your pixel art -->
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+</body>
+</html>
+
