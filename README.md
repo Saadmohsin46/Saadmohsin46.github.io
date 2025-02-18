@@ -21,3 +21,4 @@ slope and b represents the y intercept.
 5. Understanding the domain helps you determine the set of all possible x-values that can be plugged into a function.
 6. The range is the set of all possible y-values that can come out of a function7. Each of these forms is a different way to describe and understand linear equations.
 link:https://images.app.goo.gl/uaBgYoMyVuVUhrth9 
+Saad
