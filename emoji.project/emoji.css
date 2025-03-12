@@ -1,0 +1,53 @@
+/* Background */
+body {
+    background-color: #305dcf;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Emoji Container */
+.emoji {
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(
+        #feca3e 58%,
+        #ff8000 80%
+    );
+    border-radius: 50%;
+    box-shadow: 30px 30px 35px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    position: relative;
+}
+
+/* Eyes */
+.eyes {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0  1px;
+}
+
+.eye {
+    width: 60px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+/* Mouth */
+.mouth {
+    width: 140px;
+    height: 15px;
+    background-color: #000;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
